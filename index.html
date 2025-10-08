@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pl" data-color-scheme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowChart Pro - Interactive Process Diagrams</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23007bff'><rect x='3' y='3' width='6' height='6' rx='1'/><rect x='15' y='3' width='6' height='6' rx='1'/><rect x='9' y='15' width='6' height='6' rx='1'/><path d='M9 6h6v3M15 15V12H9'/></svg>">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="app__header">
+            <div class="app__header-brand">
+                <div class="app__logo">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="6" height="6" rx="1"/>
+                        <rect x="15" y="3" width="6" height="6" rx="1"/>
+                        <rect x="9" y="15" width="6" height="6" rx="1"/>
+                        <path d="M9 6h6v3M15 15V12H9"/>
+                    </svg>
+                </div>
+                <h1>FlowChart Pro</h1>
+                <span class="app__version">v1.0</span>
+            </div>
+            <div class="app__controls">
+                <div class="control-group">
+                    <button id="zoom-in" class="btn btn--sm btn--outline" title="Powiększ (Ctrl++)">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"/>
+                            <path d="M21 21l-4.35-4.35"/>
+                            <line x1="11" y1="8" x2="11" y2="14"/>
+                            <line x1="8" y1="11" x2="14" y2="11"/>
+                        </svg>
+                    </button>
+                    <button id="zoom-out" class="btn btn--sm btn--outline" title="Pomniejsz (Ctrl+-)">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"/>
+                            <path d="M21 21l-4.35-4.35"/>
+                            <line x1="8" y1="11" x2="14" y2="11"/>
+                        </svg>
+                    </button>
+                    <button id="reset-zoom" class="btn btn--sm btn--outline" title="Resetuj widok (Ctrl+0)">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/>
+                            <path d="M13 13l6 6"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="control-group">
+                    <button id="toggle-minimap" class="btn btn--sm" title="Toggle Mini-map">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </button>
+                    <button id="theme-toggle" class="btn btn--sm" title="Toggle Theme">
+                        <svg class="theme-icon theme-icon--light" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"/>
+                            <line x1="12" y1="1" x2="12" y2="3"/>
+                            <line x1="12" y1="21" x2="12" y2="23"/>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                            <line x1="1" y1="12" x2="3" y2="12"/>
+                            <line x1="21" y1="12" x2="23" y2="12"/>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                        </svg>
+                        <svg class="theme-icon theme-icon--dark hidden" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main diagram container -->
+        <main class="app__main">
+            <div id="svg-container" class="diagram-container">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                     viewBox="0 0 3125.6352 1565.0" width="3125.6352" height="1565.0" id="main-svg">
+                    <defs>
+                        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                                refX="9" refY="3.5" orient="auto" markerUnits="strokeWidth">
+                            <polygon points="0 0, 10 3.5, 0 7" fill="currentColor" />
+                        </marker>
+                        
+                        <filter id="glow">
+                            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                            <feMerge> 
+                                <feMergeNode in="coloredBlur"/>
+                                <feMergeNode in="SourceGraphic"/>
+                            </feMerge>
+                        </filter>
+
+                        <filter id="drop-shadow">
+                            <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="rgba(0,0,0,0.1)"/>
+                        </filter>
+                    </defs>
+
+                    <g id="main-diagram">
+                        <g id="edges-group">
+                            <line class="edge-line" x1="680.6352" y1="560.0" x2="1205.6352" y2="735.0"/>
+                            <line class="edge-line" x1="680.6352" y1="420.0" x2="680.6352" y2="525.0"/>
+                            <line class="edge-line" x1="626.1352" y1="700.0" x2="626.1352" y2="765.0"/>
+                        </g>
+                        
+                        <g id="nodes-group">
+                            <rect class="node-element" data-node-id="node_001" data-original-id="08ddnSXobCuU3CmYj15m-2"
+                                  x="600.6352" y="525.0" width="160.0" height="70.0" rx="16.0" ry="16.0"
+                                  fill="#D80073" stroke="#A50040" stroke-width="1"/>
+                            <text x="680.6352" y="560.0" text-anchor="middle" dominant-baseline="middle" 
+                                  font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF"
+                                  font-weight="500" pointer-events="none">Manager</text>
+
+                            <ellipse class="node-element" data-node-id="node_002" data-original-id="Ugi51vYsDqMZTHQkcO-7-30"
+                                     cx="626.1352" cy="700.0" rx="32.5" ry="32.5" 
+                                     fill="#D80073" stroke="#A50040" stroke-width="1"/>
+                            <text x="626.1352" y="700.0" text-anchor="middle" dominant-baseline="middle" 
+                                  font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+                                  font-weight="500" pointer-events="none">master</text>
+
+                            <rect class="node-element" data-node-id="node_003" data-original-id="Ugi51vYsDqMZTHQkcO-7-33"
+                                  x="600.6352" y="385.0" width="160.0" height="70.0" rx="16.0" ry="16.0"
+                                  fill="#D80073" stroke="#A50040" stroke-width="1"/>
+                            <text x="680.6352" y="420.0" text-anchor="middle" dominant-baseline="middle" 
+                                  font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF"
+                                  font-weight="500" pointer-events="none">Artysta</text>
+
+                            <rect class="node-element" data-node-id="node_004" data-original-id="Ugi51vYsDqMZTHQkcO-7-36"
+                                  x="900.6352" y="685.0" width="610.0" height="100.0" rx="61.0" ry="61.0"
+                                  fill="#1BA1E2" stroke="#006EAF" stroke-width="1"/>
+                            <text x="1205.6352" y="735.0" text-anchor="middle" dominant-baseline="middle" 
+                                  font-family="Arial, sans-serif" font-size="28" fill="#ffffff"
+                                  font-weight="500" pointer-events="none">Project Manager</text>
+
+                            <ellipse class="node-element" data-node-id="node_005" data-original-id="szn_85gmFLKWhtApThFf-2"
+                                     cx="626.1352" cy="765.0" rx="32.5" ry="32.5" 
+                                     fill="#d80073" stroke="#000000" stroke-width="1"/>
+                            <text x="626.1352" y="765.0" text-anchor="middle" dominant-baseline="middle" 
+                                  font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+                                  font-weight="500" pointer-events="none">zdjęcia</text>
+                        </g>
+                    </g>
+                </svg>
+
+                <!-- Mini-map -->
+                <div id="minimap" class="minimap">
+                    <div class="minimap__header">
+                        <span>Mapa</span>
+                        <button id="close-minimap" class="minimap__close">×</button>
+                    </div>
+                    <div class="minimap__content">
+                        <svg id="minimap-svg" viewBox="0 0 3125.6352 1565.0">
+                            <g id="minimap-diagram">
+                                <g id="minimap-edges">
+                                    <line class="minimap-edge" x1="680.6352" y1="560.0" x2="1205.6352" y2="735.0"/>
+                                    <line class="minimap-edge" x1="680.6352" y1="420.0" x2="680.6352" y2="525.0"/>
+                                    <line class="minimap-edge" x1="626.1352" y1="700.0" x2="626.1352" y2="765.0"/>
+                                </g>
+                                <g id="minimap-nodes">
+                                    <rect class="minimap-node" x="600.6352" y="525.0" width="160.0" height="70.0" rx="16.0" fill="#D80073"/>
+                                    <ellipse class="minimap-node" cx="626.1352" cy="700.0" rx="32.5" ry="32.5" fill="#D80073"/>
+                                    <rect class="minimap-node" x="600.6352" y="385.0" width="160.0" height="70.0" rx="16.0" fill="#D80073"/>
+                                    <rect class="minimap-node" x="900.6352" y="685.0" width="610.0" height="100.0" rx="61.0" fill="#1BA1E2"/>
+                                    <ellipse class="minimap-node" cx="626.1352" cy="765.0" rx="32.5" ry="32.5" fill="#d80073"/>
+                                </g>
+                            </g>
+                            <rect id="viewport-indicator" class="viewport-indicator" x="0" y="0" width="100" height="100" fill="none" stroke="#ff0000" stroke-width="2"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Side Panel -->
+            <aside id="side-panel" class="side-panel">
+                <div class="side-panel__header">
+                    <h3 id="panel-title" class="side-panel__title">Szczegóły węzła</h3>
+                    <button id="close-panel" class="side-panel__close" aria-label="Zamknij panel">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+                <div class="side-panel__content">
+                    <div class="side-panel__section">
+                        <h4>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M12 1v6m0 6v6"/>
+                            </svg>
+                            Opis
+                        </h4>
+                        <p id="panel-description">Wybierz węzeł aby zobaczyć szczegóły...</p>
+                    </div>
+                    <div class="side-panel__section">
+                        <h4>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14,2 14,8 20,8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10,9 9,9 8,9"/>
+                            </svg>
+                            Załączniki
+                        </h4>
+                        <ul id="panel-attachments" class="attachments-list">
+                            <li>Brak załączników</li>
+                        </ul>
+                    </div>
+                    <div class="side-panel__section">
+                        <h4>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                            </svg>
+                            Powiązane linki
+                        </h4>
+                        <ul id="panel-links" class="links-list">
+                            <li>Brak linków</li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Backdrop for mobile -->
+            <div id="panel-backdrop" class="panel-backdrop"></div>
+        </main>
+
+        <!-- Status bar -->
+        <div class="status-bar">
+            <div class="status-bar__info">
+                <span id="nodes-count">Węzły: 5</span>
+                <span id="zoom-level">Zoom: 100%</span>
+                <span class="status--success">FlowChart Pro aktywny</span>
+            </div>
+        </div>
+
+        <!-- Loading indicator -->
+        <div id="loading" class="loading hidden">
+            <div class="loading__spinner"></div>
+            <p>Ładowanie diagramu...</p>
+        </div>
+    </div>
+
+    <!-- External dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
