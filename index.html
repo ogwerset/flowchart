@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktywny Diagram - Proces Muzyczny</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="app__header">
+            <h1>Diagram Procesu Muzycznego (92 węzły)</h1>
+            <div class="app__controls">
+                <button id="zoom-in" class="btn btn--sm">Powiększ</button>
+                <button id="zoom-out" class="btn btn--sm">Pomniejsz</button>
+                <button id="reset-zoom" class="btn btn--sm">Wyśrodkuj</button>
+            </div>
+        </header>
+
+        <!-- Main content -->
+        <main class="app__main">
+            <!-- SVG Container -->
+            <div id="svg-container" class="diagram-container">
+                <!-- Prawdziwy diagram zostanie załadowany przez JavaScript -->
+                <div id="svg-placeholder" style="display: flex; align-items: center; justify-content: center; height: 100%; color: var(--color-text-secondary);">
+                    <p>Ładowanie prawdziwego diagramu...</p>
+                </div>
+            </div>
+
+            <!-- Side Panel -->
+            <aside id="side-panel" class="side-panel">
+                <div class="side-panel__header">
+                    <h3 id="panel-title" class="side-panel__title">Szczegóły węzła</h3>
+                    <button id="close-panel" class="side-panel__close" aria-label="Zamknij panel">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+                
+                <div class="side-panel__content">
+                    <div class="side-panel__section">
+                        <h4>Opis</h4>
+                        <p id="panel-description">Kliknij na węzeł w diagramie aby zobaczyć szczegóły...</p>
+                    </div>
+                    
+                    <div class="side-panel__section">
+                        <h4>Załączniki</h4>
+                        <ul id="panel-attachments" class="attachments-list">
+                            <li>Wybierz węzeł aby zobaczyć załączniki</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="side-panel__section">
+                        <h4>Powiązane linki</h4>
+                        <ul id="panel-links" class="links-list">
+                            <li>Wybierz węzeł aby zobaczyć linki</li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Mobile backdrop -->
+            <div id="panel-backdrop" class="panel-backdrop"></div>
+        </main>
+
+        <!-- Loading -->
+        <div id="loading" class="loading">
+            <div class="loading__spinner"></div>
+            <p>Ładowanie prawdziwego diagramu z 92 węzłami...</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

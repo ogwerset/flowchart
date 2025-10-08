@@ -1,0 +1,941 @@
+{
+  "metadata": {
+    "total_nodes": 92,
+    "diagram_dimensions": {
+      "width": 3125.6352,
+      "height": 1565.0
+    },
+    "generated_from": "premiera.xml DrawIO file"
+  },
+  "nodes": [
+    {
+      "id": "node_001",
+      "original_id": "08ddnSXobCuU3CmYj15m-2",
+      "title": "Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad całym procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx",
+        "budżet_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_002",
+      "original_id": "Ugi51vYsDqMZTHQkcO-7-30",
+      "title": "master",
+      "description": "Końcowa, zmaster owana wersja nagrania gotowa do dystrybucji na wszystkich platformach.",
+      "attachments": [
+        "master_final.wav",
+        "technical_specs.pdf",
+        "quality_check.pdf"
+      ],
+      "links": [
+        "https://mastering-standards.com"
+      ]
+    },
+    {
+      "id": "node_003",
+      "original_id": "Ugi51vYsDqMZTHQkcO-7-33",
+      "title": "Artysta",
+      "description": "Główny twórca i wykonawca projektu muzycznego. Odpowiedzialny za treść artystyczną, wykonanie i wizerunek.",
+      "attachments": [
+        "biografia_artysty.pdf",
+        "umowa_artystyczna.pdf",
+        "rider_techniczny.pdf"
+      ],
+      "links": [
+        "https://artist-portfolio.com",
+        "https://social-media-kit.com"
+      ]
+    },
+    {
+      "id": "node_004",
+      "original_id": "Ugi51vYsDqMZTHQkcO-7-36",
+      "title": "Project Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad całym procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx",
+        "budżet_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_005",
+      "original_id": "szn_85gmFLKWhtApThFf-2",
+      "title": "zdjęcia",
+      "description": "Sesja fotograficzna do celów promocyjnych - zdjęcia artysty, okładki i materiały marketingowe.",
+      "attachments": [
+        "brief_fotograficzny.pdf",
+        "przykładowe_zdjęcia.zip",
+        "wymagania_techniczne.pdf"
+      ],
+      "links": [
+        "https://photography-guidelines.com"
+      ]
+    },
+    {
+      "id": "node_006",
+      "original_id": "szn_85gmFLKWhtApThFf-3",
+      "title": "metadane",
+      "description": "Szczegółowy opis etapu: metadane",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_007",
+      "original_id": "szn_85gmFLKWhtApThFf-157",
+      "title": "klip?",
+      "description": "Produkcja teledysku muzycznego - od koncepcji przez realizację po postprodukcję.",
+      "attachments": [
+        "treatment_video.pdf",
+        "harmonogram_zdjęć.pdf",
+        "budżet_produkcji.xlsx"
+      ],
+      "links": [
+        "https://music-video-production.com"
+      ]
+    },
+    {
+      "id": "node_008",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-15",
+      "title": "okładka",
+      "description": "Projekt graficzny okładki albumu/singla zgodny ze standardami platform streamingowych.",
+      "attachments": [
+        "projekt_okładki.psd",
+        "wersje_okładki.zip",
+        "specyfikacja_graficzna.pdf"
+      ],
+      "links": [
+        "https://album-artwork-specs.com"
+      ]
+    },
+    {
+      "id": "node_009",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-160",
+      "title": "✅",
+      "description": "Szczegółowy opis etapu: ✅",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_010",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-276",
+      "title": "✅",
+      "description": "Szczegółowy opis etapu: ✅",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_011",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-279",
+      "title": "KPI",
+      "description": "Szczegółowy opis etapu: KPI",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_012",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-280",
+      "title": "plan promo",
+      "description": "Działania promocyjne mające na celu zwiększenie rozpoznawalności i sprzedaży.",
+      "attachments": [
+        "strategia_marketingowa.pdf",
+        "plan_mediów.xlsx",
+        "budżet_promocji.xlsx"
+      ],
+      "links": [
+        "https://music-marketing.com"
+      ]
+    },
+    {
+      "id": "node_013",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-285",
+      "title": "🛫",
+      "description": "Szczegółowy opis etapu: 🛫",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_014",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-323",
+      "title": "data premiery",
+      "description": "Public Relations - kontakt z mediami, wywiady, artykuły prasowe.",
+      "attachments": [
+        "press_kit.pdf",
+        "lista_mediów.xlsx",
+        "komunikat_prasowy.pdf"
+      ],
+      "links": [
+        "https://pr-contacts.com"
+      ]
+    },
+    {
+      "id": "node_015",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-229",
+      "title": "tak",
+      "description": "Szczegółowy opis etapu: tak",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_016",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-217",
+      "title": "paid promo?",
+      "description": "Działania promocyjne mające na celu zwiększenie rozpoznawalności i sprzedaży.",
+      "attachments": [
+        "strategia_marketingowa.pdf",
+        "plan_mediów.xlsx",
+        "budżet_promocji.xlsx"
+      ],
+      "links": [
+        "https://music-marketing.com"
+      ]
+    },
+    {
+      "id": "node_017",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-225",
+      "title": "Kampania",
+      "description": "Kompleksowa strategia promocyjna i marketingowa dla projektu muzycznego.",
+      "attachments": [
+        "strategia_marketingowa.pdf",
+        "plan_mediów.xlsx",
+        "budżet_promocji.xlsx"
+      ],
+      "links": [
+        "https://music-marketing.com"
+      ]
+    },
+    {
+      "id": "node_018",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-242",
+      "title": "nie",
+      "description": "Szczegółowy opis etapu: nie",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_019",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-227",
+      "title": "Alokacja",
+      "description": "Szczegółowy opis etapu: Alokacja",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_020",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-234",
+      "title": "tak",
+      "description": "Szczegółowy opis etapu: tak",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_021",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-235",
+      "title": "brief",
+      "description": "Szczegółowy opis etapu: brief",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_022",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-236",
+      "title": "budżet",
+      "description": "Szczegółowy opis etapu: budżet",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_023",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-237",
+      "title": "assety",
+      "description": "Szczegółowy opis etapu: assety",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_024",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-240",
+      "title": "✅",
+      "description": "Szczegółowy opis etapu: ✅",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_025",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-245",
+      "title": "nie",
+      "description": "Szczegółowy opis etapu: nie",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_026",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-246",
+      "title": "✅",
+      "description": "Szczegółowy opis etapu: ✅",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_027",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-248",
+      "title": "MONDAY (Kampanie)",
+      "description": "Szczegółowy opis etapu: MONDAY (Kampanie)",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_028",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-254",
+      "title": "✅",
+      "description": "Szczegółowy opis etapu: ✅",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_029",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-256",
+      "title": "link do TikToka",
+      "description": "Szczegółowy opis etapu: link do TikToka",
+      "attachments": [
+        "content_calendar.xlsx",
+        "grafiki_social.zip",
+        "strategia_social.pdf"
+      ],
+      "links": [
+        "https://social-media-tools.com"
+      ]
+    },
+    {
+      "id": "node_030",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-257",
+      "title": "Boost code",
+      "description": "Szczegółowy opis etapu: Boost code",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_031",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-258",
+      "title": "budżet",
+      "description": "Szczegółowy opis etapu: budżet",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_032",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-259",
+      "title": "cel",
+      "description": "Szczegółowy opis etapu: cel",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_033",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-261",
+      "title": "Sheet alokacyjny",
+      "description": "Szczegółowy opis etapu: Sheet alokacyjny",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_034",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-264",
+      "title": "Performance Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad całym procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx",
+        "budżet_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_035",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-265",
+      "title": "Performance Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad całym procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx",
+        "budżet_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_036",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-297",
+      "title": "nie",
+      "description": "Szczegółowy opis etapu: nie",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_037",
+      "original_id": "szn_85gmFLKWhtApThFf-55",
+      "title": "metadane",
+      "description": "Szczegółowy opis etapu: metadane",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_038",
+      "original_id": "szn_85gmFLKWhtApThFf-64",
+      "title": "MONDAY (Premiery)",
+      "description": "Public Relations - kontakt z mediami, wywiady, artykuły prasowe.",
+      "attachments": [
+        "press_kit.pdf",
+        "lista_mediów.xlsx",
+        "komunikat_prasowy.pdf"
+      ],
+      "links": [
+        "https://pr-contacts.com"
+      ]
+    },
+    {
+      "id": "node_039",
+      "original_id": "szn_85gmFLKWhtApThFf-85",
+      "title": "master",
+      "description": "Końcowa, zmaster owana wersja nagrania gotowa do dystrybucji na wszystkich platformach.",
+      "attachments": [
+        "master_final.wav",
+        "technical_specs.pdf",
+        "quality_check.pdf"
+      ],
+      "links": [
+        "https://mastering-standards.com"
+      ]
+    },
+    {
+      "id": "node_040",
+      "original_id": "szn_85gmFLKWhtApThFf-86",
+      "title": "okładka",
+      "description": "Projekt graficzny okładki albumu/singla zgodny ze standardami platform streamingowych.",
+      "attachments": [
+        "projekt_okładki.psd",
+        "wersje_okładki.zip",
+        "specyfikacja_graficzna.pdf"
+      ],
+      "links": [
+        "https://album-artwork-specs.com"
+      ]
+    },
+    {
+      "id": "node_041",
+      "original_id": "szn_85gmFLKWhtApThFf-87",
+      "title": "zdjęcia",
+      "description": "Sesja fotograficzna do celów promocyjnych - zdjęcia artysty, okładki i materiały marketingowe.",
+      "attachments": [
+        "brief_fotograficzny.pdf",
+        "przykładowe_zdjęcia.zip",
+        "wymagania_techniczne.pdf"
+      ],
+      "links": [
+        "https://photography-guidelines.com"
+      ]
+    },
+    {
+      "id": "node_042",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-4",
+      "title": "Files",
+      "description": "Szczegółowy opis etapu: Files",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_043",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-8",
+      "title": "Box",
+      "description": "Szczegółowy opis etapu: Box",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_044",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-23",
+      "title": "pitching",
+      "description": "Szczegółowy opis etapu: pitching",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_045",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-25",
+      "title": "linki do profili",
+      "description": "Public Relations - kontakt z mediami, wywiady, artykuły prasowe.",
+      "attachments": [
+        "press_kit.pdf",
+        "lista_mediów.xlsx",
+        "komunikat_prasowy.pdf"
+      ],
+      "links": [
+        "https://pr-contacts.com"
+      ]
+    },
+    {
+      "id": "node_046",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-36",
+      "title": "Spotify",
+      "description": "Szczegółowy opis etapu: Spotify",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_047",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-66",
+      "title": "Apple",
+      "description": "Szczegółowy opis etapu: Apple",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_048",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-94",
+      "title": "Supply Chain",
+      "description": "Szczegółowy opis etapu: Supply Chain",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_049",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-115",
+      "title": "Streaming Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad całym procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx",
+        "budżet_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_050",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-129",
+      "title": "tak",
+      "description": "Szczegółowy opis etapu: tak",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_051",
+      "original_id": "szn_85gmFLKWhtApThFf-165",
+      "title": "nie",
+      "description": "Szczegółowy opis etapu: nie",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_052",
+      "original_id": "szn_85gmFLKWhtApThFf-167",
+      "title": "data publikacji",
+      "description": "Szczegółowy opis etapu: data publikacji",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_053",
+      "original_id": "szn_85gmFLKWhtApThFf-168",
+      "title": "data publikacji",
+      "description": "Szczegółowy opis etapu: data publikacji",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_054",
+      "original_id": "szn_85gmFLKWhtApThFf-169",
+      "title": "plik wideo",
+      "description": "Szczegółowy opis etapu: plik wideo",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_055",
+      "original_id": "szn_85gmFLKWhtApThFf-170",
+      "title": "plik wideo",
+      "description": "Szczegółowy opis etapu: plik wideo",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_056",
+      "original_id": "szn_85gmFLKWhtApThFf-176",
+      "title": "MONDAY (Board YT)",
+      "description": "Szczegółowy opis etapu: MONDAY (Board YT)",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_057",
+      "original_id": "szn_85gmFLKWhtApThFf-177",
+      "title": "MONDAY (Board DSP)",
+      "description": "Szczegółowy opis etapu: MONDAY (Board DSP)",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_058",
+      "original_id": "szn_85gmFLKWhtApThFf-181",
+      "title": "✅",
+      "description": "Szczegółowy opis etapu: ✅",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_059",
+      "original_id": "szn_85gmFLKWhtApThFf-186",
+      "title": "Supply Chain",
+      "description": "Szczegółowy opis etapu: Supply Chain",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_060",
+      "original_id": "szn_85gmFLKWhtApThFf-204",
+      "title": "tak",
+      "description": "Szczegółowy opis etapu: tak",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_061",
+      "original_id": "szn_85gmFLKWhtApThFf-192",
+      "title": "prerelease?",
+      "description": "Public Relations - kontakt z mediami, wywiady, artykuły prasowe.",
+      "attachments": [
+        "press_kit.pdf",
+        "lista_mediów.xlsx",
+        "komunikat_prasowy.pdf"
+      ],
+      "links": [
+        "https://pr-contacts.com"
+      ]
+    },
+    {
+      "id": "node_062",
+      "original_id": "szn_85gmFLKWhtApThFf-195",
+      "title": "nie",
+      "description": "Szczegółowy opis etapu: nie",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_063",
+      "original_id": "szn_85gmFLKWhtApThFf-200",
+      "title": "✅",
+      "description": "Szczegółowy opis etapu: ✅",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_064",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-128",
+      "title": "opis",
+      "description": "Szczegółowy opis etapu: opis",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_065",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-138",
+      "title": "metadane",
+      "description": "Szczegółowy opis etapu: metadane",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_066",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-139",
+      "title": "master",
+      "description": "Końcowa, zmaster owana wersja nagrania gotowa do dystrybucji na wszystkich platformach.",
+      "attachments": [
+        "master_final.wav",
+        "technical_specs.pdf",
+        "quality_check.pdf"
+      ],
+      "links": [
+        "https://mastering-standards.com"
+      ]
+    },
+    {
+      "id": "node_067",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-140",
+      "title": "okładka",
+      "description": "Projekt graficzny okładki albumu/singla zgodny ze standardami platform streamingowych.",
+      "attachments": [
+        "projekt_okładki.psd",
+        "wersje_okładki.zip",
+        "specyfikacja_graficzna.pdf"
+      ],
+      "links": [
+        "https://album-artwork-specs.com"
+      ]
+    },
+    {
+      "id": "node_068",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-142",
+      "title": "wskazanie fragmentu 30s",
+      "description": "Szczegółowy opis etapu: wskazanie fragmentu 30s",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_069",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-148",
+      "title": "MONDAY (Premiery)",
+      "description": "Public Relations - kontakt z mediami, wywiady, artykuły prasowe.",
+      "attachments": [
+        "press_kit.pdf",
+        "lista_mediów.xlsx",
+        "komunikat_prasowy.pdf"
+      ],
+      "links": [
+        "https://pr-contacts.com"
+      ]
+    },
+    {
+      "id": "node_070",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-149",
+      "title": "Supply Chain",
+      "description": "Szczegółowy opis etapu: Supply Chain",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_071",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-205",
+      "title": "nazwy kont do greenlistowania",
+      "description": "Szczegółowy opis etapu: nazwy kont do greenlistowania",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_072",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-208",
+      "title": "Digital Account Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad całym procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx",
+        "budżet_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_073",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-213",
+      "title": "Supply Chain",
+      "description": "Szczegółowy opis etapu: Supply Chain",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_074",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-156",
+      "title": "tak",
+      "description": "Szczegółowy opis etapu: tak",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_075",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-157",
+      "title": "press info?",
+      "description": "Public Relations - kontakt z mediami, wywiady, artykuły prasowe.",
+      "attachments": [
+        "press_kit.pdf",
+        "lista_mediów.xlsx",
+        "komunikat_prasowy.pdf"
+      ],
+      "links": [
+        "https://pr-contacts.com"
+      ]
+    },
+    {
+      "id": "node_076",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-159",
+      "title": "nie",
+      "description": "Szczegółowy opis etapu: nie",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_077",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-161",
+      "title": "zdjęcia",
+      "description": "Sesja fotograficzna do celów promocyjnych - zdjęcia artysty, okładki i materiały marketingowe.",
+      "attachments": [
+        "brief_fotograficzny.pdf",
+        "przykładowe_zdjęcia.zip",
+        "wymagania_techniczne.pdf"
+      ],
+      "links": [
+        "https://photography-guidelines.com"
+      ]
+    },
+    {
+      "id": "node_078",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-163",
+      "title": "PDF",
+      "description": "Szczegółowy opis etapu: PDF",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_079",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-168",
+      "title": "Promotion Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad całym procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx",
+        "budżet_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_080",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-174",
+      "title": "tak",
+      "description": "Szczegółowy opis etapu: tak",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_081",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-175",
+      "title": "publikacje?",
+      "description": "Szczegółowy opis etapu: publikacje?",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_082",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-177",
+      "title": "nie",
+      "description": "Szczegółowy opis etapu: nie",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_083",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-178",
+      "title": "pliki",
+      "description": "Szczegółowy opis etapu: pliki",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_084",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-180",
+      "title": "Promotion Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad całym procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx",
+        "budżet_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_085",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-181",
+      "title": "✅",
+      "description": "Szczegółowy opis etapu: ✅",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_086",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-183",
+      "title": "data publikacji",
+      "description": "Szczegółowy opis etapu: data publikacji",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_087",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-272",
+      "title": "tak",
+      "description": "Szczegółowy opis etapu: tak",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_088",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-273",
+      "title": "tak",
+      "description": "Szczegółowy opis etapu: tak",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_089",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-268",
+      "title": "promo?",
+      "description": "Działania promocyjne mające na celu zwiększenie rozpoznawalności i sprzedaży.",
+      "attachments": [
+        "strategia_marketingowa.pdf",
+        "plan_mediów.xlsx",
+        "budżet_promocji.xlsx"
+      ],
+      "links": [
+        "https://music-marketing.com"
+      ]
+    },
+    {
+      "id": "node_090",
+      "original_id": "HqgqXy7d6MCsOJkFJmcY-275",
+      "title": "nie",
+      "description": "Szczegółowy opis etapu: nie",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_091",
+      "original_id": "yhjcr1j9oDO8zmXNNGh2-100",
+      "title": "plan promo",
+      "description": "Działania promocyjne mające na celu zwiększenie rozpoznawalności i sprzedaży.",
+      "attachments": [
+        "strategia_marketingowa.pdf",
+        "plan_mediów.xlsx",
+        "budżet_promocji.xlsx"
+      ],
+      "links": [
+        "https://music-marketing.com"
+      ]
+    },
+    {
+      "id": "node_092",
+      "original_id": "yhjcr1j9oDO8zmXNNGh2-101",
+      "title": "data premiery",
+      "description": "Public Relations - kontakt z mediami, wywiady, artykuły prasowe.",
+      "attachments": [
+        "press_kit.pdf",
+        "lista_mediów.xlsx",
+        "komunikat_prasowy.pdf"
+      ],
+      "links": [
+        "https://pr-contacts.com"
+      ]
+    }
+  ]
+}

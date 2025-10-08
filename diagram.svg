@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+     viewBox="0 0 3125.6352 1565.0" width="3125.6352" height="1565.0" id="main-svg">
+<defs>
+  <style>
+    .node-element { 
+      cursor: pointer; 
+      transition: opacity 0.2s ease;
+    }
+    .node-element:hover { 
+      opacity: 0.9; 
+    }
+    .node-active { 
+      stroke: #007bff !important; 
+      stroke-width: 3 !important; 
+      stroke-opacity: 0.8 !important; 
+    }
+  </style>
+</defs>
+<g id="main-diagram">
+
+  <rect class="node-element" data-node-id="node_001" data-original-id="08ddnSXobCuU3CmYj15m-2"
+        x="600.6351999999999" y="525.0" width="160.0" height="70.0" rx="7.0" ry="7.0"
+        fill="#D80073" stroke="#A50040" stroke-width="1"/>
+  <text x="680.6351999999999" y="560.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF"
+        pointer-events="none">Manager</text>
+  <ellipse class="node-element" data-node-id="node_002" data-original-id="Ugi51vYsDqMZTHQkcO-7-30"
+           cx="645.6351999999999" cy="700.0" rx="32.5" ry="32.5" 
+           fill="#D80073" stroke="#A50040" stroke-width="1"/>
+  <text x="645.6351999999999" y="700.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">master</text>
+  <rect class="node-element" data-node-id="node_003" data-original-id="Ugi51vYsDqMZTHQkcO-7-33"
+        x="600.6351999999999" y="385.0" width="160.0" height="70.0" rx="7.0" ry="7.0"
+        fill="#D80073" stroke="#A50040" stroke-width="1"/>
+  <text x="680.6351999999999" y="420.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF"
+        pointer-events="none">Artysta</text>
+  <rect class="node-element" data-node-id="node_004" data-original-id="Ugi51vYsDqMZTHQkcO-7-36"
+        x="900.6351999999999" y="685.0" width="610.0" height="100.0" rx="10.0" ry="10.0"
+        fill="#1BA1E2" stroke="#006EAF" stroke-width="1"/>
+  <text x="1205.6352" y="735.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="28" fill="#ffffff"
+        pointer-events="none">Project Manager</text>
+  <ellipse class="node-element" data-node-id="node_005" data-original-id="szn_85gmFLKWhtApThFf-2"
+           cx="645.6351999999999" cy="765.0" rx="32.5" ry="32.5" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="645.6351999999999" y="765.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">zdjęcia</text>
+  <ellipse class="node-element" data-node-id="node_006" data-original-id="szn_85gmFLKWhtApThFf-3"
+           cx="710.6351999999999" cy="765.0" rx="32.5" ry="32.5" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="710.6351999999999" y="765.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">metadane</text>
+  <polygon class="node-element" data-node-id="node_007" data-original-id="szn_85gmFLKWhtApThFf-157"
+           points="1710.6351999999997,272.5 1750.6351999999997,292.5 1710.6351999999997,312.5 1670.6351999999997,292.5" 
+           fill="#bac8d3" stroke="#23445d" stroke-width="1"/>
+  <text x="1710.6351999999997" y="292.5" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">klip?</text>
+  <ellipse class="node-element" data-node-id="node_008" data-original-id="HqgqXy7d6MCsOJkFJmcY-15"
+           cx="710.6351999999999" cy="700.0" rx="32.5" ry="32.5" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="710.6351999999999" y="700.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">okładka</text>
+  <rect class="node-element" data-node-id="node_009" data-original-id="HqgqXy7d6MCsOJkFJmcY-160"
+        x="2260.1352" y="685.0" width="60.0" height="60.0" 
+        fill="none" stroke="none" stroke-width="1"/>
+  <text x="2290.1352" y="715.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="16" fill="#000000"
+        pointer-events="none">✅</text>
+  <rect class="node-element" data-node-id="node_010" data-original-id="HqgqXy7d6MCsOJkFJmcY-276"
+        x="2090.1352" y="685.0" width="60.0" height="60.0" 
+        fill="none" stroke="none" stroke-width="1"/>
+  <text x="2120.1352" y="715.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="16" fill="#000000"
+        pointer-events="none">✅</text>
+  <ellipse class="node-element" data-node-id="node_011" data-original-id="HqgqXy7d6MCsOJkFJmcY-279"
+           cx="1189.3852" cy="492.5" rx="48.75" ry="32.5" 
+           fill="#D80073" stroke="#000000" stroke-width="1"/>
+  <text x="1189.3852" y="492.5" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">KPI</text>
+  <ellipse class="node-element" data-node-id="node_012" data-original-id="HqgqXy7d6MCsOJkFJmcY-280"
+           cx="1289.3852" cy="492.5" rx="48.75" ry="32.5" 
+           fill="#D80073" stroke="#000000" stroke-width="1"/>
+  <text x="1289.3852" y="492.5" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">plan promo</text>
+  <rect class="node-element" data-node-id="node_013" data-original-id="HqgqXy7d6MCsOJkFJmcY-285"
+        x="645.6351999999999" y="290.0" width="70.0" height="70.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="680.6351999999999" y="325.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">🛫</text>
+  <ellipse class="node-element" data-node-id="node_014" data-original-id="HqgqXy7d6MCsOJkFJmcY-323"
+           cx="1089.3852" cy="492.5" rx="48.75" ry="32.5" 
+           fill="#D80073" stroke="#000000" stroke-width="1"/>
+  <text x="1089.3852" y="492.5" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">data premiery</text>
+  <rect class="node-element" data-node-id="node_015" data-original-id="HqgqXy7d6MCsOJkFJmcY-229"
+        x="50.666" y="799.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.666" y="824.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">tak</text>
+  <polygon class="node-element" data-node-id="node_016" data-original-id="HqgqXy7d6MCsOJkFJmcY-217"
+           points="1934.1352,1185.0 1983.6352,1208.125 1934.1352,1231.25 1884.6352,1208.125" 
+           fill="#bac8d3" stroke="#23445d" stroke-width="1"/>
+  <text x="1934.1352" y="1208.125" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">paid promo?</text>
+  <polygon class="node-element" data-node-id="node_017" data-original-id="HqgqXy7d6MCsOJkFJmcY-225"
+           points="2175.1352,1185.0 2224.6352,1208.125 2175.1352,1231.25 2125.6352,1208.125" 
+           fill="#bac8d3" stroke="#23445d" stroke-width="1"/>
+  <text x="2175.1352" y="1208.125" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Kampania</text>
+  <rect class="node-element" data-node-id="node_018" data-original-id="HqgqXy7d6MCsOJkFJmcY-242"
+        x="50.1725" y="809.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.1725" y="834.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">nie</text>
+  <polygon class="node-element" data-node-id="node_019" data-original-id="HqgqXy7d6MCsOJkFJmcY-227"
+           points="1934.1352,1335.0 1983.6352,1358.125 1934.1352,1381.25 1884.6352,1358.125" 
+           fill="#bac8d3" stroke="#23445d" stroke-width="1"/>
+  <text x="1934.1352" y="1358.125" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Alokacja</text>
+  <rect class="node-element" data-node-id="node_020" data-original-id="HqgqXy7d6MCsOJkFJmcY-234"
+        x="50.666" y="799.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.666" y="824.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">tak</text>
+  <rect class="node-element" data-node-id="node_021" data-original-id="HqgqXy7d6MCsOJkFJmcY-235"
+        x="2365.6352" y="1178.13" width="63.0" height="60.0" rx="6.0" ry="6.0"
+        fill="#0050ef" stroke="#001DBC" stroke-width="1"/>
+  <text x="2397.1352" y="1208.13" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">brief</text>
+  <rect class="node-element" data-node-id="node_022" data-original-id="HqgqXy7d6MCsOJkFJmcY-236"
+        x="2440.6352" y="1178.13" width="63.0" height="60.0" rx="6.0" ry="6.0"
+        fill="#0050ef" stroke="#001DBC" stroke-width="1"/>
+  <text x="2472.1352" y="1208.13" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">budżet</text>
+  <rect class="node-element" data-node-id="node_023" data-original-id="HqgqXy7d6MCsOJkFJmcY-237"
+        x="2515.6352" y="1178.12" width="63.0" height="60.0" rx="6.0" ry="6.0"
+        fill="#0050ef" stroke="#001DBC" stroke-width="1"/>
+  <text x="2547.1352" y="1208.12" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">assety</text>
+  <rect class="node-element" data-node-id="node_024" data-original-id="HqgqXy7d6MCsOJkFJmcY-240"
+        x="2021.6352" y="1260.0" width="60.0" height="60.0" 
+        fill="none" stroke="none" stroke-width="1"/>
+  <text x="2051.6351999999997" y="1290.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="16" fill="#000000"
+        pointer-events="none">✅</text>
+  <rect class="node-element" data-node-id="node_025" data-original-id="HqgqXy7d6MCsOJkFJmcY-245"
+        x="50.1725" y="809.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.1725" y="834.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">nie</text>
+  <rect class="node-element" data-node-id="node_026" data-original-id="HqgqXy7d6MCsOJkFJmcY-246"
+        x="1971.6352" y="1075.0" width="60.0" height="60.0" 
+        fill="none" stroke="none" stroke-width="1"/>
+  <text x="2001.6352" y="1105.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="16" fill="#000000"
+        pointer-events="none">✅</text>
+  <rect class="node-element" data-node-id="node_027" data-original-id="HqgqXy7d6MCsOJkFJmcY-248"
+        x="2615.6352" y="1190.62" width="260.0" height="35.0" 
+        fill="#F0A30A" stroke="#BD7000" stroke-width="1"/>
+  <text x="2745.6352" y="1208.12" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">MONDAY (Kampanie)</text>
+  <rect class="node-element" data-node-id="node_028" data-original-id="HqgqXy7d6MCsOJkFJmcY-254"
+        x="2230.6352" y="1080.0" width="60.0" height="60.0" 
+        fill="none" stroke="none" stroke-width="1"/>
+  <text x="2260.6352" y="1110.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="16" fill="#000000"
+        pointer-events="none">✅</text>
+  <ellipse class="node-element" data-node-id="node_029" data-original-id="HqgqXy7d6MCsOJkFJmcY-256"
+           cx="2175.1352" cy="1485.0" rx="30.0" ry="30.0" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="2175.1352" y="1485.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">link do TikToka</text>
+  <ellipse class="node-element" data-node-id="node_030" data-original-id="HqgqXy7d6MCsOJkFJmcY-257"
+           cx="2249.6352" cy="1485.0" rx="30.0" ry="30.0" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="2249.6352" y="1485.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">Boost code</text>
+  <rect class="node-element" data-node-id="node_031" data-original-id="HqgqXy7d6MCsOJkFJmcY-258"
+        x="2291.6352" y="1455.0" width="63.0" height="60.0" rx="6.0" ry="6.0"
+        fill="#0050ef" stroke="#001DBC" stroke-width="1"/>
+  <text x="2323.1352" y="1485.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">budżet</text>
+  <rect class="node-element" data-node-id="node_032" data-original-id="HqgqXy7d6MCsOJkFJmcY-259"
+        x="2365.6352" y="1455.0" width="63.0" height="60.0" rx="6.0" ry="6.0"
+        fill="#0050ef" stroke="#001DBC" stroke-width="1"/>
+  <text x="2397.1352" y="1485.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">cel</text>
+  <rect class="node-element" data-node-id="node_033" data-original-id="HqgqXy7d6MCsOJkFJmcY-261"
+        x="2470.6352" y="1467.5" width="260.0" height="35.0" 
+        fill="#F0A30A" stroke="#BD7000" stroke-width="1"/>
+  <text x="2600.6352" y="1485.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Sheet alokacyjny</text>
+  <rect class="node-element" data-node-id="node_034" data-original-id="HqgqXy7d6MCsOJkFJmcY-264"
+        x="2775.6352" y="1465.0" width="160.0" height="40.0" rx="4.0" ry="4.0"
+        fill="#b1ddf0" stroke="#10739e" stroke-width="1"/>
+  <text x="2855.6352" y="1485.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Performance Manager</text>
+  <rect class="node-element" data-node-id="node_035" data-original-id="HqgqXy7d6MCsOJkFJmcY-265"
+        x="2915.6352" y="1188.13" width="160.0" height="40.0" rx="4.0" ry="4.0"
+        fill="#b1ddf0" stroke="#10739e" stroke-width="1"/>
+  <text x="2995.6352" y="1208.13" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Performance Manager</text>
+  <rect class="node-element" data-node-id="node_036" data-original-id="HqgqXy7d6MCsOJkFJmcY-297"
+        x="50.1725" y="809.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.1725" y="834.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">nie</text>
+  <ellipse class="node-element" data-node-id="node_037" data-original-id="szn_85gmFLKWhtApThFf-55"
+           cx="940.6351999999999" cy="905.0" rx="30.0" ry="30.0" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="940.6351999999999" y="905.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">metadane</text>
+  <rect class="node-element" data-node-id="node_038" data-original-id="szn_85gmFLKWhtApThFf-64"
+        x="920.6351999999999" y="1155.0" width="590.0" height="50.0" 
+        fill="#F0A30A" stroke="#BD7000" stroke-width="1"/>
+  <text x="1215.6352" y="1180.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">MONDAY (Premiery)</text>
+  <ellipse class="node-element" data-node-id="node_039" data-original-id="szn_85gmFLKWhtApThFf-85"
+           cx="1010.6351999999999" cy="905.0" rx="30.0" ry="30.0" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="1010.6351999999999" y="905.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">master</text>
+  <ellipse class="node-element" data-node-id="node_040" data-original-id="szn_85gmFLKWhtApThFf-86"
+           cx="1060.6352" cy="905.0" rx="30.0" ry="30.0" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="1060.6352" y="905.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">okładka</text>
+  <ellipse class="node-element" data-node-id="node_041" data-original-id="szn_85gmFLKWhtApThFf-87"
+           cx="1138.1352" cy="905.0" rx="30.0" ry="30.0" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="1138.1352" y="905.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">zdjęcia</text>
+  <rect class="node-element" data-node-id="node_042" data-original-id="HqgqXy7d6MCsOJkFJmcY-4"
+        x="980.6351999999999" y="985.0" width="110.0" height="40.0" 
+        fill="#bac8d3" stroke="#23445d" stroke-width="1"/>
+  <text x="1035.6352" y="1005.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Files</text>
+  <rect class="node-element" data-node-id="node_043" data-original-id="HqgqXy7d6MCsOJkFJmcY-8"
+        x="1083.1352" y="985.0" width="110.0" height="40.0" 
+        fill="#bac8d3" stroke="#23445d" stroke-width="1"/>
+  <text x="1138.1352" y="1005.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Box</text>
+  <rect class="node-element" data-node-id="node_044" data-original-id="HqgqXy7d6MCsOJkFJmcY-23"
+        x="1460.6352" y="870.0" width="63.0" height="60.0" rx="6.0" ry="6.0"
+        fill="#0050ef" stroke="#001DBC" stroke-width="1"/>
+  <text x="1492.1352" y="900.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">pitching</text>
+  <rect class="node-element" data-node-id="node_045" data-original-id="HqgqXy7d6MCsOJkFJmcY-25"
+        x="1380.6352" y="870.0" width="60.0" height="60.0" rx="6.0" ry="6.0"
+        fill="#0050ef" stroke="#001DBC" stroke-width="1"/>
+  <text x="1410.6352" y="900.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">linki do profili</text>
+  <rect class="node-element" data-node-id="node_046" data-original-id="HqgqXy7d6MCsOJkFJmcY-36"
+        x="1360.6352" y="980.0" width="50.0" height="50.0" rx="5.0" ry="5.0"
+        fill="#0050ef" stroke="#001DBC" stroke-width="1"/>
+  <text x="1385.6352" y="1005.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">Spotify</text>
+  <rect class="node-element" data-node-id="node_047" data-original-id="HqgqXy7d6MCsOJkFJmcY-66"
+        x="1410.6352" y="980.0" width="50.0" height="50.0" rx="5.0" ry="5.0"
+        fill="#0050ef" stroke="#001DBC" stroke-width="1"/>
+  <text x="1435.6352" y="1005.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">Apple</text>
+  <rect class="node-element" data-node-id="node_048" data-original-id="HqgqXy7d6MCsOJkFJmcY-94"
+        x="920.6351999999999" y="1275.0" width="140.0" height="40.0" rx="4.0" ry="4.0"
+        fill="#b1ddf0" stroke="#10739e" stroke-width="1"/>
+  <text x="990.6351999999999" y="1295.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Supply Chain</text>
+  <rect class="node-element" data-node-id="node_049" data-original-id="HqgqXy7d6MCsOJkFJmcY-115"
+        x="1125.1352" y="1275.0" width="395.5" height="40.0" rx="4.0" ry="4.0"
+        fill="#b1ddf0" stroke="#10739e" stroke-width="1"/>
+  <text x="1322.8852" y="1295.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Streaming Manager</text>
+  <rect class="node-element" data-node-id="node_050" data-original-id="HqgqXy7d6MCsOJkFJmcY-129"
+        x="50.0" y="802.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.0" y="827.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">tak</text>
+  <rect class="node-element" data-node-id="node_051" data-original-id="szn_85gmFLKWhtApThFf-165"
+        x="50.7731" y="800.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.7731" y="825.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">nie</text>
+  <ellipse class="node-element" data-node-id="node_052" data-original-id="szn_85gmFLKWhtApThFf-167"
+           cx="1960.4751999999999" cy="335.0" rx="30.0" ry="30.0" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="1960.4751999999999" y="335.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">data publikacji</text>
+  <ellipse class="node-element" data-node-id="node_053" data-original-id="szn_85gmFLKWhtApThFf-168"
+           cx="1960.4751999999999" cy="262.5" rx="30.0" ry="30.0" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="1960.4751999999999" y="262.5" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">data publikacji</text>
+  <ellipse class="node-element" data-node-id="node_054" data-original-id="szn_85gmFLKWhtApThFf-169"
+           cx="1891.4751999999999" cy="335.0" rx="30.0" ry="30.0" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="1891.4751999999999" y="335.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">plik wideo</text>
+  <ellipse class="node-element" data-node-id="node_055" data-original-id="szn_85gmFLKWhtApThFf-170"
+           cx="1891.4751999999999" cy="262.5" rx="30.0" ry="30.0" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="1891.4751999999999" y="262.5" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">plik wideo</text>
+  <rect class="node-element" data-node-id="node_056" data-original-id="szn_85gmFLKWhtApThFf-176"
+        x="2150.4752000000003" y="317.5" width="260.0" height="35.0" 
+        fill="#F0A30A" stroke="#BD7000" stroke-width="1"/>
+  <text x="2280.4752000000003" y="335.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">MONDAY (Board YT)</text>
+  <rect class="node-element" data-node-id="node_057" data-original-id="szn_85gmFLKWhtApThFf-177"
+        x="2150.4752000000003" y="245.0" width="260.0" height="35.0" 
+        fill="#F0A30A" stroke="#BD7000" stroke-width="1"/>
+  <text x="2280.4752000000003" y="262.5" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">MONDAY (Board DSP)</text>
+  <rect class="node-element" data-node-id="node_058" data-original-id="szn_85gmFLKWhtApThFf-181"
+        x="1860.9751999999999" y="50.0" width="60.0" height="60.0" 
+        fill="none" stroke="none" stroke-width="1"/>
+  <text x="1890.9751999999999" y="80.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="16" fill="#000000"
+        pointer-events="none">✅</text>
+  <rect class="node-element" data-node-id="node_059" data-original-id="szn_85gmFLKWhtApThFf-186"
+        x="2430.4752000000003" y="315.0" width="160.0" height="40.0" rx="4.0" ry="4.0"
+        fill="#b1ddf0" stroke="#10739e" stroke-width="1"/>
+  <text x="2510.4752000000003" y="335.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Supply Chain</text>
+  <rect class="node-element" data-node-id="node_060" data-original-id="szn_85gmFLKWhtApThFf-204"
+        x="50.429899999999996" y="798.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.4299" y="823.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">tak</text>
+  <polygon class="node-element" data-node-id="node_061" data-original-id="szn_85gmFLKWhtApThFf-192"
+           points="1671.1352,552.5 1720.6352,575.625 1671.1352,598.75 1621.6352,575.625" 
+           fill="#bac8d3" stroke="#23445d" stroke-width="1"/>
+  <text x="1671.1352" y="575.625" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">prerelease?</text>
+  <rect class="node-element" data-node-id="node_062" data-original-id="szn_85gmFLKWhtApThFf-195"
+        x="50.7731" y="800.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.7731" y="825.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">nie</text>
+  <rect class="node-element" data-node-id="node_063" data-original-id="szn_85gmFLKWhtApThFf-200"
+        x="1780.6352" y="455.0" width="60.0" height="60.0" 
+        fill="none" stroke="none" stroke-width="1"/>
+  <text x="1810.6352" y="485.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="16" fill="#000000"
+        pointer-events="none">✅</text>
+  <ellipse class="node-element" data-node-id="node_064" data-original-id="HqgqXy7d6MCsOJkFJmcY-128"
+           cx="2030.4751999999999" cy="335.0" rx="30.0" ry="30.0" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="2030.4751999999999" y="335.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">opis</text>
+  <ellipse class="node-element" data-node-id="node_065" data-original-id="HqgqXy7d6MCsOJkFJmcY-138"
+           cx="1890.6352" cy="575.63" rx="30.0" ry="30.0" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="1890.6352" y="575.63" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">metadane</text>
+  <ellipse class="node-element" data-node-id="node_066" data-original-id="HqgqXy7d6MCsOJkFJmcY-139"
+           cx="1960.6352" cy="575.63" rx="30.0" ry="30.0" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="1960.6352" y="575.63" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">master</text>
+  <ellipse class="node-element" data-node-id="node_067" data-original-id="HqgqXy7d6MCsOJkFJmcY-140"
+           cx="2030.6352" cy="575.63" rx="30.0" ry="30.0" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="2030.6352" y="575.63" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">okładka</text>
+  <rect class="node-element" data-node-id="node_068" data-original-id="HqgqXy7d6MCsOJkFJmcY-142"
+        x="2070.6352" y="545.63" width="63.0" height="60.0" rx="6.0" ry="6.0"
+        fill="#0050ef" stroke="#001DBC" stroke-width="1"/>
+  <text x="2102.1352" y="575.63" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">wskazanie fragmentu 30s</text>
+  <rect class="node-element" data-node-id="node_069" data-original-id="HqgqXy7d6MCsOJkFJmcY-148"
+        x="2210.6352" y="558.13" width="260.0" height="35.0" 
+        fill="#F0A30A" stroke="#BD7000" stroke-width="1"/>
+  <text x="2340.6352" y="575.63" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">MONDAY (Premiery)</text>
+  <rect class="node-element" data-node-id="node_070" data-original-id="HqgqXy7d6MCsOJkFJmcY-149"
+        x="2490.6352" y="555.63" width="160.0" height="40.0" rx="4.0" ry="4.0"
+        fill="#b1ddf0" stroke="#10739e" stroke-width="1"/>
+  <text x="2570.6352" y="575.63" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Supply Chain</text>
+  <rect class="node-element" data-node-id="node_071" data-original-id="HqgqXy7d6MCsOJkFJmcY-205"
+        x="1861.4751999999999" y="170.0" width="133.0" height="40.0" rx="4.0" ry="4.0"
+        fill="#0050ef" stroke="#001DBC" stroke-width="1"/>
+  <text x="1927.9751999999999" y="182.79999999999998" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">nazwy kont do</text>
+  <text x="1927.9751999999999" y="197.2" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">greenlistowania</text>
+  <rect class="node-element" data-node-id="node_072" data-original-id="HqgqXy7d6MCsOJkFJmcY-208"
+        x="2150.4752000000003" y="170.0" width="160.0" height="40.0" rx="4.0" ry="4.0"
+        fill="#b1ddf0" stroke="#10739e" stroke-width="1"/>
+  <text x="2230.4752000000003" y="182.79999999999998" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Digital Account</text>
+  <text x="2230.4752000000003" y="197.2" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Manager</text>
+  <rect class="node-element" data-node-id="node_073" data-original-id="HqgqXy7d6MCsOJkFJmcY-213"
+        x="2430.4752000000003" y="242.5" width="160.0" height="40.0" rx="4.0" ry="4.0"
+        fill="#b1ddf0" stroke="#10739e" stroke-width="1"/>
+  <text x="2510.4752000000003" y="262.5" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Supply Chain</text>
+  <rect class="node-element" data-node-id="node_074" data-original-id="HqgqXy7d6MCsOJkFJmcY-156"
+        x="50.429899999999996" y="798.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.4299" y="823.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">tak</text>
+  <polygon class="node-element" data-node-id="node_075" data-original-id="HqgqXy7d6MCsOJkFJmcY-157"
+           points="2152.6352,782.5 2202.1352,805.625 2152.6352,828.75 2103.1352,805.625" 
+           fill="#bac8d3" stroke="#23445d" stroke-width="1"/>
+  <text x="2152.6352" y="805.625" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">press info?</text>
+  <rect class="node-element" data-node-id="node_076" data-original-id="HqgqXy7d6MCsOJkFJmcY-159"
+        x="50.7731" y="800.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.7731" y="825.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">nie</text>
+  <ellipse class="node-element" data-node-id="node_077" data-original-id="HqgqXy7d6MCsOJkFJmcY-161"
+           cx="2372.6352" cy="805.63" rx="32.5" ry="32.5" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="2372.6352" y="805.63" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">zdjęcia</text>
+  <rect class="node-element" data-node-id="node_078" data-original-id="HqgqXy7d6MCsOJkFJmcY-163"
+        x="2410.1352" y="775.63" width="63.0" height="60.0" rx="6.0" ry="6.0"
+        fill="#0050ef" stroke="#001DBC" stroke-width="1"/>
+  <text x="2441.6352" y="805.63" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">PDF</text>
+  <rect class="node-element" data-node-id="node_079" data-original-id="HqgqXy7d6MCsOJkFJmcY-168"
+        x="2520.1352" y="785.63" width="160.0" height="40.0" rx="4.0" ry="4.0"
+        fill="#b1ddf0" stroke="#10739e" stroke-width="1"/>
+  <text x="2600.1352" y="805.63" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Promotion Manager</text>
+  <rect class="node-element" data-node-id="node_080" data-original-id="HqgqXy7d6MCsOJkFJmcY-174"
+        x="50.429899999999996" y="798.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.4299" y="823.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">tak</text>
+  <polygon class="node-element" data-node-id="node_081" data-original-id="HqgqXy7d6MCsOJkFJmcY-175"
+           points="2147.6352,940.9300000000001 2197.1352,964.0550000000001 2147.6352,987.1800000000001 2098.1352,964.0550000000001" 
+           fill="#bac8d3" stroke="#23445d" stroke-width="1"/>
+  <text x="2147.6352" y="964.0550000000001" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">publikacje?</text>
+  <rect class="node-element" data-node-id="node_082" data-original-id="HqgqXy7d6MCsOJkFJmcY-177"
+        x="50.7731" y="800.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.7731" y="825.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">nie</text>
+  <ellipse class="node-element" data-node-id="node_083" data-original-id="HqgqXy7d6MCsOJkFJmcY-178"
+           cx="2442.6352" cy="964.05" rx="32.5" ry="32.5" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="2442.6352" y="964.05" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">pliki</text>
+  <rect class="node-element" data-node-id="node_084" data-original-id="HqgqXy7d6MCsOJkFJmcY-180"
+        x="2510.1352" y="944.06" width="160.0" height="40.0" rx="4.0" ry="4.0"
+        fill="#b1ddf0" stroke="#10739e" stroke-width="1"/>
+  <text x="2590.1352" y="964.06" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">Promotion Manager</text>
+  <rect class="node-element" data-node-id="node_085" data-original-id="HqgqXy7d6MCsOJkFJmcY-181"
+        x="2260.1352" y="845.0" width="60.0" height="60.0" 
+        fill="none" stroke="none" stroke-width="1"/>
+  <text x="2290.1352" y="875.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="16" fill="#000000"
+        pointer-events="none">✅</text>
+  <ellipse class="node-element" data-node-id="node_086" data-original-id="HqgqXy7d6MCsOJkFJmcY-183"
+           cx="2372.6352" cy="964.06" rx="32.5" ry="32.5" 
+           fill="#d80073" stroke="#A50040" stroke-width="1"/>
+  <text x="2372.6352" y="964.06" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#ffffff"
+        pointer-events="none">data publikacji</text>
+  <rect class="node-element" data-node-id="node_087" data-original-id="HqgqXy7d6MCsOJkFJmcY-272"
+        x="50.5976" y="800.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.5976" y="825.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">tak</text>
+  <rect class="node-element" data-node-id="node_088" data-original-id="HqgqXy7d6MCsOJkFJmcY-273"
+        x="50.1491" y="807.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.1491" y="832.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">tak</text>
+  <polygon class="node-element" data-node-id="node_089" data-original-id="HqgqXy7d6MCsOJkFJmcY-268"
+           points="1990.1352,782.5 2039.6352,805.625 1990.1352,828.75 1940.6352,805.625" 
+           fill="#bac8d3" stroke="#23445d" stroke-width="1"/>
+  <text x="1990.1352" y="805.625" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">promo?</text>
+  <rect class="node-element" data-node-id="node_090" data-original-id="HqgqXy7d6MCsOJkFJmcY-275"
+        x="50.7731" y="800.0" width="100.0" height="50.0" 
+        fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="100.7731" y="825.0" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">nie</text>
+  <ellipse class="node-element" data-node-id="node_091" data-original-id="yhjcr1j9oDO8zmXNNGh2-100"
+           cx="1221.3852" cy="904.5" rx="48.75" ry="32.5" 
+           fill="#D80073" stroke="#000000" stroke-width="1"/>
+  <text x="1221.3852" y="904.5" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">plan promo</text>
+  <ellipse class="node-element" data-node-id="node_092" data-original-id="yhjcr1j9oDO8zmXNNGh2-101"
+           cx="1307.3852" cy="902.5" rx="48.75" ry="32.5" 
+           fill="#D80073" stroke="#000000" stroke-width="1"/>
+  <text x="1307.3852" y="902.5" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="12" fill="#000000"
+        pointer-events="none">data premiery</text>
+</g>
+</svg>
