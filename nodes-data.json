@@ -1,0 +1,705 @@
+{
+  "nodes": [
+    {
+      "id": "node_001",
+      "title": "Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_002",
+      "title": "master",
+      "description": "Końcowa wersja nagrania gotowa do dystrybucji. Zawiera wszystkie poprawki techniczne i artystyczne.",
+      "attachments": [
+        "master_recording.wav",
+        "technical_specifications.pdf"
+      ],
+      "links": [
+        "https://mastering-standards.com"
+      ]
+    },
+    {
+      "id": "node_003",
+      "title": "Artysta",
+      "description": "Twórca muzyki i główny wykonawca projektu. Odpowiedzialny za treść artystyczną i wykonanie.",
+      "attachments": [
+        "artist_bio.pdf",
+        "performance_contract.pdf"
+      ],
+      "links": [
+        "https://artist-portfolio.com"
+      ]
+    },
+    {
+      "id": "node_004",
+      "title": "Project Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_005",
+      "title": "zdjęcia",
+      "description": "Materiały fotograficzne do promocji i marketingu projektu muzycznego.",
+      "attachments": [
+        "photo_brief.pdf",
+        "example_shots.zip"
+      ],
+      "links": [
+        "https://photography-standards.com"
+      ]
+    },
+    {
+      "id": "node_006",
+      "title": "metadane",
+      "description": "Szczegółowy opis dla elementu: metadane. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_007",
+      "title": "klip?",
+      "description": "Produkcja teledysku muzycznego - od koncepcji przez realizację po postprodukcję.",
+      "attachments": [
+        "video_treatment.pdf",
+        "production_schedule.pdf"
+      ],
+      "links": [
+        "https://music-video-production.com"
+      ]
+    },
+    {
+      "id": "node_008",
+      "title": "okładka",
+      "description": "Projekt graficzny okładki albumu zgodny ze standardami platform streamingowych.",
+      "attachments": [
+        "cover_design.psd",
+        "artwork_guidelines.pdf"
+      ],
+      "links": [
+        "https://album-artwork-specs.com"
+      ]
+    },
+    {
+      "id": "node_009",
+      "title": "KPI",
+      "description": "Szczegółowy opis dla elementu: KPI. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_010",
+      "title": "plan promo",
+      "description": "Strategia promocyjna i marketingowa dla projektu muzycznego.",
+      "attachments": [
+        "campaign_strategy.pdf",
+        "media_plan.xlsx"
+      ],
+      "links": [
+        "https://music-marketing.com"
+      ]
+    },
+    {
+      "id": "node_011",
+      "title": "data premiery",
+      "description": "Szczegółowy opis dla elementu: data premiery. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_012",
+      "title": "tak",
+      "description": "Szczegółowy opis dla elementu: tak. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_013",
+      "title": "paid promo?",
+      "description": "Strategia promocyjna i marketingowa dla projektu muzycznego.",
+      "attachments": [
+        "campaign_strategy.pdf",
+        "media_plan.xlsx"
+      ],
+      "links": [
+        "https://music-marketing.com"
+      ]
+    },
+    {
+      "id": "node_014",
+      "title": "Kampania",
+      "description": "Strategia promocyjna i marketingowa dla projektu muzycznego.",
+      "attachments": [
+        "campaign_strategy.pdf",
+        "media_plan.xlsx"
+      ],
+      "links": [
+        "https://music-marketing.com"
+      ]
+    },
+    {
+      "id": "node_015",
+      "title": "nie",
+      "description": "Szczegółowy opis dla elementu: nie. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_016",
+      "title": "Alokacja",
+      "description": "Szczegółowy opis dla elementu: Alokacja. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_017",
+      "title": "tak",
+      "description": "Szczegółowy opis dla elementu: tak. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_018",
+      "title": "brief",
+      "description": "Szczegółowy opis dla elementu: brief. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_019",
+      "title": "budżet",
+      "description": "Szczegółowy opis dla elementu: budżet. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_020",
+      "title": "assety",
+      "description": "Szczegółowy opis dla elementu: assety. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_021",
+      "title": "nie",
+      "description": "Szczegółowy opis dla elementu: nie. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_022",
+      "title": "MONDAY (Kampanie)",
+      "description": "Szczegółowy opis dla elementu: MONDAY (Kampanie). Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_023",
+      "title": "link do TikToka",
+      "description": "Szczegółowy opis dla elementu: link do TikToka. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_024",
+      "title": "Boost code",
+      "description": "Szczegółowy opis dla elementu: Boost code. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_025",
+      "title": "budżet",
+      "description": "Szczegółowy opis dla elementu: budżet. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_026",
+      "title": "cel",
+      "description": "Szczegółowy opis dla elementu: cel. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_027",
+      "title": "Sheet alokacyjny",
+      "description": "Szczegółowy opis dla elementu: Sheet alokacyjny. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_028",
+      "title": "Performance Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_029",
+      "title": "Performance Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_030",
+      "title": "nie",
+      "description": "Szczegółowy opis dla elementu: nie. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_031",
+      "title": "metadane",
+      "description": "Szczegółowy opis dla elementu: metadane. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_032",
+      "title": "MONDAY (Premiery)",
+      "description": "Szczegółowy opis dla elementu: MONDAY (Premiery). Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_033",
+      "title": "master",
+      "description": "Końcowa wersja nagrania gotowa do dystrybucji. Zawiera wszystkie poprawki techniczne i artystyczne.",
+      "attachments": [
+        "master_recording.wav",
+        "technical_specifications.pdf"
+      ],
+      "links": [
+        "https://mastering-standards.com"
+      ]
+    },
+    {
+      "id": "node_034",
+      "title": "okładka",
+      "description": "Projekt graficzny okładki albumu zgodny ze standardami platform streamingowych.",
+      "attachments": [
+        "cover_design.psd",
+        "artwork_guidelines.pdf"
+      ],
+      "links": [
+        "https://album-artwork-specs.com"
+      ]
+    },
+    {
+      "id": "node_035",
+      "title": "zdjęcia",
+      "description": "Materiały fotograficzne do promocji i marketingu projektu muzycznego.",
+      "attachments": [
+        "photo_brief.pdf",
+        "example_shots.zip"
+      ],
+      "links": [
+        "https://photography-standards.com"
+      ]
+    },
+    {
+      "id": "node_036",
+      "title": "Files",
+      "description": "Szczegółowy opis dla elementu: Files. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_037",
+      "title": "Box",
+      "description": "Szczegółowy opis dla elementu: Box. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_038",
+      "title": "pitching",
+      "description": "Szczegółowy opis dla elementu: pitching. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_039",
+      "title": "linki do profili",
+      "description": "Szczegółowy opis dla elementu: linki do profili. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_040",
+      "title": "Spotify",
+      "description": "Szczegółowy opis dla elementu: Spotify. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_041",
+      "title": "Apple",
+      "description": "Szczegółowy opis dla elementu: Apple. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_042",
+      "title": "Supply Chain",
+      "description": "Szczegółowy opis dla elementu: Supply Chain. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_043",
+      "title": "Streaming Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_044",
+      "title": "tak",
+      "description": "Szczegółowy opis dla elementu: tak. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_045",
+      "title": "nie",
+      "description": "Szczegółowy opis dla elementu: nie. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_046",
+      "title": "data publikacji",
+      "description": "Szczegółowy opis dla elementu: data publikacji. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_047",
+      "title": "data publikacji",
+      "description": "Szczegółowy opis dla elementu: data publikacji. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_048",
+      "title": "plik wideo",
+      "description": "Szczegółowy opis dla elementu: plik wideo. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_049",
+      "title": "plik wideo",
+      "description": "Szczegółowy opis dla elementu: plik wideo. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_050",
+      "title": "MONDAY (Board YT)",
+      "description": "Szczegółowy opis dla elementu: MONDAY (Board YT). Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_051",
+      "title": "MONDAY (Board DSP)",
+      "description": "Szczegółowy opis dla elementu: MONDAY (Board DSP). Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_052",
+      "title": "Supply Chain",
+      "description": "Szczegółowy opis dla elementu: Supply Chain. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_053",
+      "title": "tak",
+      "description": "Szczegółowy opis dla elementu: tak. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_054",
+      "title": "prerelease?",
+      "description": "Szczegółowy opis dla elementu: prerelease?. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_055",
+      "title": "nie",
+      "description": "Szczegółowy opis dla elementu: nie. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_056",
+      "title": "opis",
+      "description": "Szczegółowy opis dla elementu: opis. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_057",
+      "title": "metadane",
+      "description": "Szczegółowy opis dla elementu: metadane. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_058",
+      "title": "master",
+      "description": "Końcowa wersja nagrania gotowa do dystrybucji. Zawiera wszystkie poprawki techniczne i artystyczne.",
+      "attachments": [
+        "master_recording.wav",
+        "technical_specifications.pdf"
+      ],
+      "links": [
+        "https://mastering-standards.com"
+      ]
+    },
+    {
+      "id": "node_059",
+      "title": "okładka",
+      "description": "Projekt graficzny okładki albumu zgodny ze standardami platform streamingowych.",
+      "attachments": [
+        "cover_design.psd",
+        "artwork_guidelines.pdf"
+      ],
+      "links": [
+        "https://album-artwork-specs.com"
+      ]
+    },
+    {
+      "id": "node_060",
+      "title": "wskazanie fragmentu 30s",
+      "description": "Szczegółowy opis dla elementu: wskazanie fragmentu 30s. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_061",
+      "title": "MONDAY (Premiery)",
+      "description": "Szczegółowy opis dla elementu: MONDAY (Premiery). Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_062",
+      "title": "Supply Chain",
+      "description": "Szczegółowy opis dla elementu: Supply Chain. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_063",
+      "title": "nazwy kont do greenlistowania",
+      "description": "Szczegółowy opis dla elementu: nazwy kont do greenlistowania. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_064",
+      "title": "Digital Account Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_065",
+      "title": "Supply Chain",
+      "description": "Szczegółowy opis dla elementu: Supply Chain. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_066",
+      "title": "tak",
+      "description": "Szczegółowy opis dla elementu: tak. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_067",
+      "title": "press info?",
+      "description": "Szczegółowy opis dla elementu: press info?. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_068",
+      "title": "nie",
+      "description": "Szczegółowy opis dla elementu: nie. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_069",
+      "title": "zdjęcia",
+      "description": "Materiały fotograficzne do promocji i marketingu projektu muzycznego.",
+      "attachments": [
+        "photo_brief.pdf",
+        "example_shots.zip"
+      ],
+      "links": [
+        "https://photography-standards.com"
+      ]
+    },
+    {
+      "id": "node_070",
+      "title": "PDF",
+      "description": "Szczegółowy opis dla elementu: PDF. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_071",
+      "title": "Promotion Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_072",
+      "title": "tak",
+      "description": "Szczegółowy opis dla elementu: tak. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_073",
+      "title": "publikacje?",
+      "description": "Szczegółowy opis dla elementu: publikacje?. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_074",
+      "title": "nie",
+      "description": "Szczegółowy opis dla elementu: nie. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_075",
+      "title": "pliki",
+      "description": "Szczegółowy opis dla elementu: pliki. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_076",
+      "title": "Promotion Manager",
+      "description": "Osoba odpowiedzialna za zarządzanie projektem muzycznym, koordynację zespołu i nadzór nad procesem produkcji.",
+      "attachments": [
+        "umowa_managerska.pdf",
+        "harmonogram_projektu.xlsx"
+      ],
+      "links": [
+        "https://example.com/manager-guidelines"
+      ]
+    },
+    {
+      "id": "node_077",
+      "title": "data publikacji",
+      "description": "Szczegółowy opis dla elementu: data publikacji. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_078",
+      "title": "tak",
+      "description": "Szczegółowy opis dla elementu: tak. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_079",
+      "title": "tak",
+      "description": "Szczegółowy opis dla elementu: tak. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_080",
+      "title": "promo?",
+      "description": "Strategia promocyjna i marketingowa dla projektu muzycznego.",
+      "attachments": [
+        "campaign_strategy.pdf",
+        "media_plan.xlsx"
+      ],
+      "links": [
+        "https://music-marketing.com"
+      ]
+    },
+    {
+      "id": "node_081",
+      "title": "nie",
+      "description": "Szczegółowy opis dla elementu: nie. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    },
+    {
+      "id": "node_082",
+      "title": "plan promo",
+      "description": "Strategia promocyjna i marketingowa dla projektu muzycznego.",
+      "attachments": [
+        "campaign_strategy.pdf",
+        "media_plan.xlsx"
+      ],
+      "links": [
+        "https://music-marketing.com"
+      ]
+    },
+    {
+      "id": "node_083",
+      "title": "data premiery",
+      "description": "Szczegółowy opis dla elementu: data premiery. Tutaj można dodać więcej informacji o tym etapie procesu.",
+      "attachments": [],
+      "links": []
+    }
+  ]
+}
